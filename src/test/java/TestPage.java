@@ -25,6 +25,7 @@ public class TestPage {
         loginPage.openTestPage();
     }
 
+    // region Methods
     @Test
     public void playRadio() {
         /**
@@ -47,6 +48,8 @@ public class TestPage {
         playButton.shouldBe(Condition.visible, Duration.ofSeconds(10)).click();
         minimizeWindow(true);
     }
+
+    // endregion
 
 
     // region Private Methods
