@@ -45,7 +45,6 @@ public class TestPage {
         acceptCookies.shouldBe(Condition.visible, Duration.ofSeconds(10)).click();
         cancelModal.shouldBe(Condition.visible, Duration.ofSeconds(10)).click();
         loginPage.selectRadio(1);
-        playButton.shouldBe(Condition.visible, Duration.ofSeconds(10)).click();
         minimizeWindow(true);
     }
 
